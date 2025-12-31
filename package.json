@@ -1,0 +1,39 @@
+{
+  "name": "@rashidv/jwt-decoder",
+  "version": "1.0.0",
+  "description": "Free, open-source JWT decoder with expiry checker and live countdown",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "jwt",
+    "decoder",
+    "expiry",
+    "validator",
+    "json-web-token",
+    "authentication"
+  ],
+  "author": "Muhammed Rashid <rashidv.dev@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rashidrashiii/jwt-decoder"
+  },
+  "homepage": "https://rashidv.dev/tools/jwt-decoder",
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "jose": "^5.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^18.3.18",
+    "react": "^19.0.0",
+    "typescript": "^5.7.2"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0"
+  }
+}
