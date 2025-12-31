@@ -1,6 +1,6 @@
 # JWT Decoder & Expiry Checker
 
-> Free, open-source JWT decoder with live expiry countdown. Better UX than jwt.io.
+> Free, open-source JWT decoder with live expiry countdown
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
